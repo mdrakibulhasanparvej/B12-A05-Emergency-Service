@@ -37,19 +37,19 @@
         </div>
         <div class="flex items-center justify-evenly gap-2 font-bold">
           <div
-            class="flex items-center justify-center bg-[#41ff6a2a] w-[70px] lg:w-[100px] h-[26px] lg:h-[52px] rounded-full px-5 py-1"
+            class="flex items-center justify-center bg-[#41ff6a2a] w-[50px] lg:w-[100px] h-[26px] lg:h-[40px] rounded-full px-5 py-1"
           >
-            <span>0</span>
+            <span id="heart-value" class="text-[10px] md:text-lg">0</span>
             <img
-              class="ml-2 w-[18px] lg:w-[24px]"
+              class="ml-2 w-[14px] lg:w-[24px]"
               src="assets/heart.png"
               alt=""
             />
           </div>
           <div
-            class="flex items-center justify-center bg-[#41ff6a2a] w-[70px] lg:w-[100px] h-[26px] lg:h-[52px] rounded-full px-5 py-1"
+            class="flex items-center justify-center bg-[#41ff6a2a] w-[50px] lg:w-[100px] h-[26px] lg:h-[40px] rounded-full px-5 py-1"
           >
-            <span>100</span
+            <span id="coins-reserve" class="text-[10px] md:text-lg">100</span
             ><img
               class="ml-2 lg:ml-2 w-[18px] lg:w-[24px]"
               src="assets/coin.png"
@@ -57,9 +57,9 @@
             />
           </div>
           <div
-            class="flex items-center justify-center bg-[#00A63E] w-[70px] lg:w-[100px] h-[26px] lg:h-[52px] rounded-full py-3 lg:py-5"
+            class="flex items-center justify-center bg-[#00A63E] w-[50px] lg:w-[100px] h-[26px] lg:h-[40px] rounded-full py-3 lg:py-5"
           >
-            <p class="text-center text-white px-2">2 Copy</p>
+            <p class="text-center text-[10px] md:text-lg text-white px-2"> <span id="copy-values">2</span> Copy</p>
           </div>
         </div>
       </nav>
@@ -103,14 +103,14 @@
             >
               <img class="w-[20px]" src="assets/emergency.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
+          </div>
+          <div classclassflex flex-col my-4">
+            <h2 class="font-bold text-xl">জাতীয় জরুরি সেবা <br></h2>
+            <p id="national-service" class="text-gray-600">National Emergency</p>
           </div>
           <div class="flex flex-col my-4">
-            <h2 class="font-bold text-xl">জাতীয় জরুরি সেবা</h2>
-            <p class="text-gray-600">National Emergency</p>
-          </div>
-          <div class="flex flex-col my-4">
-            <h2 class="font-bold text-4xl">999</h2>
+            <h2 id="nls-number" class="font-bold text-4xl">999</h2>
             <span
               class="w-[100px] bg-gray-100 text-gray-600 rounded-full py-2 text-center my-2"
               ><p>সার্বজনীন</p></span
@@ -123,7 +123,7 @@
             <button
               class="btn w-1/2 rounded-lg bg-[#00A63E] hover:bg-[#001712a] text-white"
             >
-              <span><i class="fa-solid fa-phone"></i></span>Call
+              <span id="call-btn-NE"><i class="fa-solid fa-phone"></i></span>Call
             </button>
           </div>
         </div>
@@ -134,7 +134,7 @@
             >
               <img class="w-[34px]" src="assets/police.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">পুলিশ</h2>
@@ -165,7 +165,7 @@
             >
               <img class="w-[20px]" src="assets/fire-service.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">ফায়ার সার্ভিস</h2>
@@ -196,7 +196,7 @@
             >
               <img class="w-[20px]" src="assets/ambulance.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">অ্যাম্বুলেন্স</h2>
@@ -227,7 +227,7 @@
             >
               <img class="w-[20px]" src="assets/emergency.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">নারী ও শিশু সহায়তা</h2>
@@ -258,7 +258,7 @@
             >
               <img class="w-[20px]" src="assets/emergency.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">দুদক</h2>
@@ -289,7 +289,7 @@
             >
               <img class="w-[20px]" src="assets/emergency.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">বিদ্যুৎ বিভ্রাট</h2>
@@ -320,7 +320,7 @@
             >
               <img class="w-[20px]" src="assets/brac.png" alt="" />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">ব্রাক</h2>
@@ -355,7 +355,7 @@
                 alt=""
               />
             </div>
-            <span><i class="fa-regular fa-heart"></i></span>
+            <span class="heart-btn"><i class="fa-regular fa-heart"></i></span>
           </div>
           <div class="flex flex-col my-4">
             <h2 class="font-bold text-xl">বাংলাদেশ রেলওয়ে</h2>
@@ -389,24 +389,17 @@
             <span>Call History</span>
           </div>
           <div
-            class="flex items-center justify-center bg-[#00A63E] w-[100px] h-[32px] rounded-full py-5"
+            class="flex items-center justify-center btn bg-[#00A63E] w-[100px] h-[32px] rounded-full py-5"
           >
-            <p class="text-center font-semibold text-white px-2">Clear list</p>
+            <p id="clear-btn" class=" flex text-center font-semibold text-white px-2"><span class="mr-1">Clear </span> list</p>
           </div>
         </div>
-        <div class="w-[90%] mx-auto bg-[#fafafa] rounded-xl p-4 mb-4">
-          <div class="flex items-center justify-between">
-            <div class="flex flex-col">
-              <h2 class="font-semibold lg:text-sm">জাতীয় জরুরি সেবা</h2>
-              <p class="font-semibold text-gray-600 lg:text-sm">999</p>
-            </div>
-            <div>
-              <h2 class="font-semibold lg:text-sm">10:36:58 AM</h2>
-            </div>
-          </div>
+        <div id="history-container" class="w-[90%] mx-auto  rounded-xl p-4 mb-4">
+
         </div>
       </div>
     </section>
     <!-- grid section End -->
+    <script src="main.js"></script>
   </body>
 </html>
